@@ -1,0 +1,34 @@
+{
+  "exchange": "bybit",
+  "market_type": "spot",
+
+  "symbols": [
+    {
+      "symbol": "BTCUSDT",
+      "change_threshold_percent": 0.1,
+      "description": "Bitcoin spot price alert"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "change_threshold_percent": 0.1,
+      "description": "Ethereum spot price alert"
+    }
+  ],
+
+  "check_interval_seconds": 10,
+
+  "alerts": {
+    "console": true,
+    "csv": {
+      "enabled": true,
+      "path": "data/alerts.csv"
+    },
+    "telegram": {
+      "enabled": false
+    }
+  },
+  "metadata": {
+    "created_by": "VasylK27",
+    "project": "CryptoPriceAlertBot"
+  }
+}
