@@ -55,7 +55,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 Security Configuration:
-- Rename .env.example to .env.
+- Rename .env.example to .env
 - Add your BOT_TOKEN (from @BotFather) and CHAT_ID.
 
 ---
