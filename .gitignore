@@ -22,3 +22,4 @@ data/*.csv
 
 # Secrets
 config.local.json
+.env

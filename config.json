@@ -24,7 +24,7 @@
       "path": "data/alerts.csv"
     },
     "telegram": {
-      "enabled": false
+      "enabled": true
     }
   },
   "metadata": {

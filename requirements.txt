@@ -1,1 +1,3 @@
-requests
+aiogram
+httpx
+python-dotenv
