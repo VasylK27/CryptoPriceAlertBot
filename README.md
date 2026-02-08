@@ -109,3 +109,7 @@ Similar tools can be customized based on specific requirements.
 MIT License
 
 ---
+
+![Telegram alerts screenshot](asset/screenshot1.png)
+
+---
